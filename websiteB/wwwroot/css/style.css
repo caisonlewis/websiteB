@@ -24,11 +24,14 @@ header {
     letter-spacing: 3px;
     width: 100%;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 75px; /* Adjust this value to move it right */
 }
+
 
 /* Center the image */
 .image-container {
-    margin-top: 20px;
+    margin-top: 30px;
+    align-content: center;
 }
 
     .image-container img {
@@ -40,6 +43,7 @@ header {
 
 /* Global styles */
 body {
+    overflow-x: hidden;
     font-family: 'Lucida Bright';
     color: #0ff;
     text-align: center;
@@ -148,23 +152,30 @@ nav {
 
 /* General styles for the journal page */
 #day-container {
-    max-width: 800px; /* Keeps the blog posts from stretching too wide */
-    margin: 20px auto; /* Centers the content */
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.8); /* Cyberpunk-style dark background */
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.5); /* Neon glow */
+    max-width: 1100px; /* Same max-width as game cards */
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 3px solid #0ff;
+    padding: 30px;
+    margin: auto;
+    margin-right: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px #0ff;
+    text-align: left;
+    min-height: 200px; /* Same minimum height */
+    overflow: hidden; /* Prevent overflow */
 }
 
-/* Styling for individual journal entries */
-.journal-entry {
-    background: rgba(20, 20, 20, 0.9);
-    border-left: 5px solid cyan;
-    padding: 20px;
-    margin-bottom: 20px;
-    color: #ddd;
-    border-radius: 5px;
-}
+    #day-container:hover {
+        border-color: #ff0;
+        box-shadow: 0px 0px 20px #ff0;
+        transform: scale(1.02);
+    }
+
+
+    /* Center the title */
+    .blog-entry h2 {
+        text-align: center;
+    }
 
 
 /* Push the content to the right of the sidebar */
@@ -220,6 +231,7 @@ table {
     text-align: center;
     font-family: 'Lucida Bright';
     z-index: 0; /* Ensure it's on top of other elements */
+    table-layout: fixed; /* Ensures consistent column sizing */
 }
 
     table td, table th {
