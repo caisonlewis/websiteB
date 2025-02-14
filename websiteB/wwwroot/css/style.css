@@ -115,9 +115,21 @@ nav {
     /* Adjust Title */
     .game-card h2 {
         font-size: 28px; /* Make titles larger */
-        color: #ff0;
+        color: deepskyblue;
         margin-top: 15px;
     }
+
+    /* Adjust Platform Subheading*/
+    .game-card h3 {
+        font-size: 18px;
+    }
+
+    h3.switch { color: red; }
+    h3.playstation { color: dodgerblue; }
+    h3.xbox { color: green; }
+    h3.pc { color: cyan; }
+    h3.other { color: white; } /* Default for other platforms */
+
 
     /* Adjust Description */
     .game-card p {
