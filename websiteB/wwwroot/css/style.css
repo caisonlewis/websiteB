@@ -1,0 +1,34 @@
+﻿/* Center the content */
+body {
+    font-family: Courier New, Courier, monospace;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style header */
+header {
+    background-color: ;
+    color: white;
+    padding: 30px;
+    letter-spacing: 3px;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Center the image */
+.image-container {
+    margin-top: 20px;
+}
+
+    .image-container img {
+        width: 400px; /* Adjust size as needed */
+        height: auto;
+        border-radius: 10px; /* Optional: Rounds corners */
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Adds a nice shadow */
+    }
