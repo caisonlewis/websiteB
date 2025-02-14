@@ -166,20 +166,99 @@ nav {
     border-radius: 5px;
 }
 
-/* Adjust the sidebar to prevent overlap */
-nav {
-    width: 200px; /* Set a fixed width */
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.9);
-    padding: 20px;
-}
 
 /* Push the content to the right of the sidebar */
 main {
     margin-left: 220px; /* Adjust to match the sidebar width */
     padding: 20px;
+    margin-top: 80px; /* adding space for the top navigation bar (pokemon teams page) */
 }
+
+/* Pokemon teams page styling*/
+
+
+/* Top navigation bar (under header) */
+#team-nav {
+    font-family: 'Lucida Bright';
+    background-color: #1a1f2b;
+    padding: 10px;
+    text-align: center;
+    margin-left: 220px; /* Offset for the sidebar */
+    width: calc(100% - 220px); /* Ensures it's the remaining width after accounting for the sidebar */
+    max-width: 100%; /* Prevents overflow */
+    box-sizing: border-box; /* Ensures padding is included in width calculation */
+    position: relative;
+    margin-right: 20px; /* Centers it horizontally */
+    margin-left: auto; /* Ensures the element is centered */
+}
+
+    /* Center the links inside the top navigation */
+    #team-nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+        #team-nav ul li {
+            margin: 0 15px; /* Space out the list items */
+        }
+
+            #team-nav ul li a {
+                color: #58a6ff;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+/* Tables */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #161b22;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Bright';
+    z-index: 0; /* Ensure it's on top of other elements */
+}
+
+    table td, table th {
+        padding: 10px; /* Add padding to each cell */
+        border: 1px solid #333; /* Border between each cell */
+    }
+
+        /* Align moveset list to the left */
+        table td ul {
+            list-style-position: inside;
+            margin: 0;
+            padding-left: 0;
+            text-align: left;
+        }
+
+        table td li {
+            padding-left: 0;
+        }
+
+    /* Add space between rows */
+    table tr {
+        margin-bottom: 10px; /* Adds space below each row */
+    }
+
+        table tr:not(:last-child) {
+            border-bottom: 2px solid #0ff; /* Adds a cyan-colored border between rows, but not after the last one */
+        }
+
+/* Specific color styling for game titles */
+#leafgreen h2 {
+    color: lightgreen; /* LeafGreen game title color */
+}
+
+#emerald h2 {
+    color: darkgreen; /* Emerald game title color */
+}
+
+#platinum h2 {
+    color: gold; /* Platinum game title color */
+}
+
 
