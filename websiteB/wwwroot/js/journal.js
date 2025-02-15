@@ -7,7 +7,7 @@
 
     createEntryElement() {
         let entryDiv = document.createElement("div");
-        entryDiv.classList.add("blog-entry"); // Use a new CSS class for styling
+        entryDiv.classList.add("journal-entry"); // Use a new CSS class for styling
 
         let title = document.createElement("h2");
         title.textContent = this.title;

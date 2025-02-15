@@ -17,7 +17,7 @@
         let img = document.createElement("img");
         img.src = src;
         img.alt = "Team pictures";
-        img.classList.add("pla-image"); // Add a unique CSS class
+        img.classList.add("pla-image"); 
         imageContainer.appendChild(img);
     });
 });

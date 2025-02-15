@@ -1,0 +1,71 @@
+﻿/* PLA page images*/
+
+/* Container for PLA images - ensures they are centered and large */
+.pla-image-container {
+    margin-left: 175px; /* Adjust for better alignment with the header */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers images in container */
+    justify-content: center;
+    width: calc(100% - 200px); /* Adjust to fit content without breaking layout */
+    max-width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+    /* Individual images - large, centered, and responsive */
+    .pla-image-container img {
+        width: 100%;
+        max-width: min(900px, 100%); /* Ensures max possible size without breaking layout */
+        height: auto;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    }
+
+/* Shiny Showcase Title */
+.shiny-title {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-left: 150px;
+    color: gold; /* Adjust based on theme */
+    text-shadow: 2px 2px 4px black;
+}
+
+.shiny-subtitle {
+    text-align: center;
+    font-size: 25px;
+    color: gold; /* Cyberpunk-style neon color */
+    text-shadow: 2px 2px 4px black;
+    margin-top: 5px; /* Small spacing below title */
+    margin-left: 150px;
+}
+
+/* Table Styling */
+.shiny-table {
+    width: 100%; /* Ensure it scales properly */
+    max-width: 900px; /* Match image max-width */
+    margin: 0 auto; /* Center the table */
+    transform: translateX(75px); /* Adjust this value to nudge it right */
+
+    border-collapse: collapse;
+    background: rgba(0, 0, 0, 0.5); /* Adjust transparency for theme */
+    border: 2px solid #00ffff; /* Cyberpunk-style neon border */
+    padding: 10px;
+}
+
+    /* Table Cells */
+    .shiny-table td {
+        border: 2px solid #00ffff;
+        padding: 15px;
+        text-align: center;
+    }
+
+    /* Shiny Pokémon Images */
+    .shiny-table img {
+        width: 150px; /* Adjust sprite size */
+        height: auto;
+        display: block;
+    }

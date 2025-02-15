@@ -1,0 +1,62 @@
+﻿/* Game card styling */
+.game-card {
+    width: 90%;
+    max-width: 900px; /* Limit maximum size for readability */
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 3px solid #0ff;
+    padding: 30px;
+    margin: 30px auto;
+    margin-right: 450px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px #0ff;
+    transition: 0.3s;
+    text-align: left;
+    min-height: 300px; 
+    overflow: hidden; /* Prevent accidental text overflow */
+}
+
+    /* Hover Effect */
+    .game-card:hover {
+        border-color: #ff0;
+        box-shadow: 0px 0px 20px #ff0;
+        transform: scale(1.02);
+    }
+
+    /* Adjust Image Size */
+    .game-card img {
+        width: 100%; /* Make the image stretch to fit the card */
+        max-height: 400px; /* Set a limit for very tall images */
+        object-fit: cover; /* Crop image  */
+        border-radius: 10px;
+    }
+
+    /* Adjust Title */
+    .game-card h2 {
+        font-size: 28px; /* Make titles larger */
+        color: deepskyblue;
+        margin-top: 15px;
+    }
+
+    /* Adjust Platform Subheading*/
+    .game-card h3 {
+        font-size: 18px;
+    }
+
+    h3.switch { color: red; }
+    h3.playstation { color: dodgerblue; }
+    h3.xbox { color: green; }
+    h3.pc { color: cyan; }
+    h3.other { color: white; } /* Default for other platforms */
+
+
+    /* Adjust Description */
+    .game-card p {
+        font-size: 18px; /* Make text larger */
+        color: #ddd; /* Light text for readability */
+        line-height: 1.6; /* Improve spacing */
+        word-wrap: break-word; /* Ensure long words don't overflow */
+        white-space: normal; /* Allow text wrapping */
+        display: block; /* Ensure it appears */
+        margin-top: 10px;
+        max-width: 100%; /* Keep text inside the card */
+    }

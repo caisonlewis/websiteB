@@ -60,8 +60,13 @@ const blueTeam = [
 ];
 
 const leafgreenTeam = [
-    new Pokemon("/images/sprites/charizard.png", "Charizard", "Blaze", 60, ["Flamethrower", "Fly", "Dragon Claw", "Earthquake"]),
-    new Pokemon("/images/sprites/snorlax.png", "Snorlax", "Tank", 55, ["Body Slam", "Rest", "Snore", "Shadow Ball"])
+    new Pokemon("/images/sprites/blastoisegen3.png", "Blastoise", "BUBS", 48, ["Bite", "Tail Whip", "Surf", "Srength"]),
+    new Pokemon("/images/sprites/raichugen3.png", "Raichu", "PICO", 46, ["Thunderbolt", "Double Team", "Counter", "Thunder Wave"]),
+    new Pokemon("/images/sprites/articunogen3.png", "Articuno", "Kool", 50, ["Mist", "Agility", "Fly", "Ice Beam"]),
+    new Pokemon("/images/sprites/dragonitegen3.png", "Dragonite", "MiMi", 55, ["Surf", "Thunder", "Wing Attack", "Dragon Rage"]),
+    new Pokemon("/images/sprites/ninetalesgen3.png", "Ninetales", "Tee", 40, ["Ember", "Fire Blast", "Roar", "Quick Attack"]),
+    new Pokemon("/images/sprites/nidoqueengen3.png", "Nidoqueen", "Bee", 42, ["Brick Break", "Poison Sting", "Bite", "Earthquake"])
+
 ];
 
 const emeraldTeam = [
