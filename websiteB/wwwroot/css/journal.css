@@ -1,39 +1,50 @@
-﻿/* Journal page styling*/
-
-/* General styles for the journal page */
-
-#day-container {
+﻿/* Journal Entry Card Styling */
+.journal-entry {
     width: 90%;
     max-width: 900px; /* Limit maximum size for readability */
     background-color: rgba(0, 0, 0, 0.9);
     border: 3px solid #0ff;
     padding: 30px;
-    margin: 30px auto;
-    margin-right: 460px;
+    margin-top: 20px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 15px;
     box-shadow: 0px 0px 15px #0ff;
     transition: 0.3s;
     text-align: left;
-    min-height: 300px;
+    min-height: 200px;
     overflow: hidden; /* Prevent accidental text overflow */
 }
 
-/* Hover Effect */
-#day-container:hover {
-    border-color: #ff0;
-    box-shadow: 0px 0px 20px #ff0;
-    transform: scale(1.02);
-}
+    /* Hover Effect */
+    .journal-entry:hover {
+        border-color: #ff0;
+        box-shadow: 0px 0px 20px #ff0;
+        transform: scale(1.02);
+    }
 
+    /* Title Styling */
+    .journal-entry h2 {
+        text-align: center;
+        font-size: 28px;
+        color: deepskyblue;
+        margin-bottom: 10px;
+    }
 
-/* text formatting */
-.journal-entry h2 {
+/* Date Styling */
+.entry-date {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 10px;
     text-align: center;
-    font-size: 30px;
 }
 
-.journal-entry p {
-    font-size: 26px;
-    line-height: 35px;
+/* Thoughts Styling */
+.entry-text {
     font-size: 18px;
+    line-height: 1.6;
+    color: #ddd;
+    word-wrap: break-word;
+    white-space: normal;
 }

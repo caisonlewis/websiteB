@@ -7,13 +7,13 @@
     background-color: #1a1f2b;
     padding: 10px;
     text-align: center;
-    margin-left: 250px; /* Offset for the sidebar */
-    width: calc(100% - 220px); /* Ensures it's the remaining width after accounting for the sidebar */
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     max-width: 100%; /* Prevents overflow */
-    box-sizing: border-box; /* Ensures padding is included in width calculation */
+    
     position: relative;
-    margin-right: 20px; /* Centers it horizontally */
-    margin-left: auto; /* Ensures the element is centered */
 }
 
     /* Center the links inside the top navigation */
@@ -37,8 +37,9 @@
 /* Tables */
 table {
     width: 80%;
-    margin: 20px auto;
-    margin-left: 250px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
     border-collapse: collapse;
     background: #161b22;
     color: lightskyblue;
@@ -46,7 +47,7 @@ table {
     text-align: center;
     font-family: 'Lucida Bright';
     font-size: 20px;
-    z-index: 0; /* Ensure it's on top of other elements */
+    z-index: 0; 
     table-layout: fixed; /* Ensures consistent column sizing */
 }
 
@@ -83,26 +84,32 @@ table {
 
 /* Specific color styling for game titles */
 
+h2 {
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #blue h2 {
     color: blue; /*Blue version game title color*/
     text-shadow: 2px 2px 4px white;
-    margin-left: 100px;
+    
 }
 
 #leafgreen h2 {
     color: lawngreen; /* LeafGreen game title color */
     text-shadow: 2px 2px 4px black;
-    margin-left: 100px;
+    
 }
 
 #emerald h2 {
     color: darkgreen; /* Emerald game title color */
     text-shadow: 2px 2px 4px white;
-    margin-left: 100px;
+    
 }
 
 #platinum h2 {
     color: gold; /* Platinum game title color */
     text-shadow: 2px 2px 4px black;
-    margin-left: 100px;
+    
 }

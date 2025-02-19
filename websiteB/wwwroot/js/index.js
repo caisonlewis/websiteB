@@ -20,7 +20,7 @@
 }
 document.addEventListener("DOMContentLoaded", function () {
     let img = document.createElement("img");
-    img.src = "/images/imgofme.png";
+    img.src = "/images/animalcrossingmusicfeels.png";
     img.alt = "A picture of me";
 
     // Add CSS class for styling

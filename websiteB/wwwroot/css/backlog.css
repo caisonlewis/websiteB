@@ -1,0 +1,62 @@
+﻿/* Center the backlog table */
+#backlog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Table Styling */
+#backlog-table {
+    width: 100%;
+    max-width: 1500px;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+    #backlog-table th, #backlog-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #backlog-table th {
+        background-color: #444;
+        color: white;
+    }
+
+/* Priority Styling */
+.low {
+    color: black;
+    background-color: green;
+    text-shadow: 2px 2px 4px black;
+}
+
+.medium {
+    color: black;
+    background-color: yellow;
+    text-shadow: 2px 2px 4px black;
+}
+
+.high {
+    color: black;
+    background-color: red;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* Main Story Completed */
+.yes-completed {
+    color: lightgreen;
+    font-weight: bold;
+}
+
+.no-completed {
+    color: lightcoral;
+    font-weight: bold;
+}
