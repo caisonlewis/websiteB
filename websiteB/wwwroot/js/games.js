@@ -60,15 +60,15 @@ const gris = new Game("Gris", "PlayStation 5", "images/grisArt.jpg",
     "Very fun and beautiful little game, only takes about 5-6 hours to complete, it is like controlling a character in a painting, stunning visuals, beautiful sound and music, the puzzles are fun. The story is deeply artistic and emotionally heavy handed. I really liked this game, especially playing it on PS5 with the enhanced controller vibration and dualsense triggers (or whatever they're called). The ps5 controller alone makes the game even more immersive and mesmerizing. Just play it. Definitely worth 5-6 hours of your time."
 )
 
-const p3Reload = new Game("Persona 3: Reload", "PlayStation 5", "images/persona3reload.jpg",
-    "Not even close to completing this one yet, but I just had to talk about it. I really love everything Atlus does and P3 reload is no exception. I started playing around the time the game launched because it was dropped on Xbox game pass. I played about 10 hours and was obsessed. I have since got a PS5 and after my game pass running out, i was itching to get back into this one. I bought it on PS5 ( for a great price btw, $25 on sale! :o ) I almost back to where I left off on Xbox, story progression wise, but this game is an absolute banger. I love the characters, the UI design and music takes inspiration for what they did with Persona 5. I never played the original Persona 3 but from what I understand, they added a bunch of parts that were added in the Persona 3 revision release on PS2 and stuff they added from Persona 3 Portable on the PSP. Fantastic, Fantastic, Fantastic. Can't wait to finish this one. "
+const PLA = new Game("Pokémon: Legends Arceus", "Nintendo Switch", "images/plaEnd.jpg",
+    "This was my second playthrough. That says it all. I only replay games that are fantastic and fun no matter what and that's what legends arceus is. Really cool direction for the Pokémon series as a whole, even if it isn't considered a 'Main-Line' Pokémon game. Loved it, wanna do some of the end game stuff, caught some shinies this playthrough. One of my favorite newer Pokémon games."
 );
 
 
 
 
 // Array of games
-const games = [p3Reload, xc3, gris];
+const games = [PLA, xc3, gris];
 
 // Display games on the page
 document.addEventListener("DOMContentLoaded", function () {

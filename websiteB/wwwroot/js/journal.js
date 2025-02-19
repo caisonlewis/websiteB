@@ -47,7 +47,7 @@ const feb_19_25 = new JournalEntry(
 );
 
 // Array of entries
-const entries = [feb_13_25, feb_19_25];
+const entries = [feb_19_25, feb_13_25];
 
 // Display entries on the page
 document.addEventListener("DOMContentLoaded", function () {
