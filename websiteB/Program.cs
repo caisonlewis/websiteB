@@ -6,7 +6,7 @@ app.UseStaticFiles(); // Allows serving static files like index.html
 // Redirect the root URL ("/") to "index.html"
 app.MapGet("/", async (HttpContext context) =>
 {
-    context.Response.Redirect("/home.html");
+    context.Response.Redirect("/index.html");
 });
 
 app.Run();
