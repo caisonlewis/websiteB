@@ -65,6 +65,20 @@ const PLA = new Game("Pokémon: Legends Arceus", "Nintendo Switch", "/BlizzNet/w
 );
 
 
+// TODO: Add Red Dead 2
+
+// TODO: Add No Mans Sky
+
+// TODO: Add Monster Hunter World
+
+// TODO: Add Monster Hunter Rise
+
+// TODO: Add Skyrim
+
+// TODO: Add Oblivion
+
+// TODO: Add Fallout 4
+
 
 
 // Array of games
