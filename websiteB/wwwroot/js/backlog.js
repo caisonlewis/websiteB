@@ -29,7 +29,7 @@
                         if (index === 1) {
                             let platformClass = column.toLowerCase().replace(/\s+/g, "-");
                             // Rename "3DS" to "threeDS" to avoid CSS class issues
-                            if (platformClass === "3ds") {
+                            if (platformClass === " nintendo 3ds") {
                                 platformClass = "threeDS";
                             }
 
