@@ -65,7 +65,9 @@ const PLA = new Game("Pokémon: Legends Arceus", "Nintendo Switch", "/BlizzNet/w
 );
 
 
-// TODO: Add Red Dead 2
+const rdr2 = new Game("Red Dead Redemption 2", "Xbox One", "/BlizzNet/websiteB/wwwroot/images/rdr2.jpg",
+    "First of all, this game is absolutely stunning visually. The environmental details are super realistic, everything down to your gun getting dirty to bullet holes and blood trails being accurate. RDR2 is a visual masterpiece. On top of the gorgeous realism the game gives you, this is one of the best stories I've ever experienced. I mean EVER (including books, movies, etc.). The characters are fantastic, the missions are brutal. The attachment I had for Arthur by the end of the game is unmatched. 10/10 master class in writing and game design. Wish I could forget it all and experience it for the first time all over again."
+)
 
 // TODO: Add No Mans Sky
 
@@ -82,7 +84,7 @@ const PLA = new Game("Pokémon: Legends Arceus", "Nintendo Switch", "/BlizzNet/w
 
 
 // Array of games
-const games = [PLA, xc3, gris];
+const games = [rdr2, PLA, xc3, gris];
 
 // Display games on the page
 document.addEventListener("DOMContentLoaded", function () {
