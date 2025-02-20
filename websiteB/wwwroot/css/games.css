@@ -1,7 +1,7 @@
 ﻿/* Game card styling */
 .game-card {
-    width: 50%;
-    max-width: min(900px, 100%);
+    width: auto;
+    max-width: min(600p);
     background-color: rgba(0, 0, 0, 0.9);
     border: 3px solid #0ff;
     padding: 30px;
@@ -13,6 +13,7 @@
     box-shadow: 0px 0px 15px #0ff;
     transition: 0.3s;
     text-align: left;
+    min-height: 300px;
     overflow: hidden; /* Prevent accidental text overflow */
 }
 
@@ -25,8 +26,7 @@
 
     /* Adjust Image Size */
     .game-card img {
-        width: 75%; /* Make the image stretch to fit the card */
-        align-content: center;
+        width: 100%; /* Make the image stretch to fit the card */
         max-height: 400px; /* Set a limit for very tall images */
         object-fit: cover; /* Crop image  */
         border-radius: 10px;
