@@ -11,9 +11,6 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    max-width: 100%; /* Prevents overflow */
-    color: aliceblue;
-    font-size: 20px;
     position: relative;
 }
 
@@ -38,7 +35,6 @@
 /* Tables */
 table {
     width: auto;
-    max-width: 100%;
     align-content: center;
     margin-left: auto;
     margin-right: auto;
