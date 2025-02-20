@@ -1,6 +1,6 @@
 ﻿/* Game card styling */
 .game-card {
-    width: auto;
+    width: 75%;
     max-width: min(900px, 100%);
     background-color: rgba(0, 0, 0, 0.9);
     border: 3px solid #0ff;
@@ -26,7 +26,7 @@
 
     /* Adjust Image Size */
     .game-card img {
-        width: 100%; /* Make the image stretch to fit the card */
+        width: 75%; /* Make the image stretch to fit the card */
         max-height: 400px; /* Set a limit for very tall images */
         object-fit: cover; /* Crop image  */
         border-radius: 10px;
