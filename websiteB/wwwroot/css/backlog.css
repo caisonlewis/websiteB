@@ -50,7 +50,7 @@
     text-shadow: 2px 2px 4px black;
 }
 
-/* Main Story Completed */
+/* Started? Column Styling*/
 .yes-completed {
     color: lightgreen;
     font-weight: bold;
@@ -60,3 +60,41 @@
     color: lightcoral;
     font-weight: bold;
 }
+
+/* Platform Styling */
+.platform {
+    font-weight: bold;
+}
+
+    /* Xbox Platforms */
+    .platform.xbox-one, .platform.xbox-360 {
+        color: green;
+    }
+
+    /* PlayStation 5 */
+    .platform.playstation-5 {
+        color: deepskyblue;
+    }
+
+    /* PlayStation 4*/
+    .platform.playstation-4 {
+        color: dodgerblue;
+    }
+
+    /* Nintendo Switch */
+    .platform.nintendo-switch {
+        color: red;
+    }
+
+    /* Nintendo DS */
+    .platform.nintendo-ds {
+        color: black;
+        text-shadow: 2px 2px 4px white;
+    }
+
+    /* Nintendo 3DS */
+    .platform.threeDS {
+        color: red;
+        text-shadow: 2px 2px 4px black;
+    }
+

@@ -25,13 +25,24 @@
                         let cell = document.createElement("td");
                         cell.textContent = column;
 
+                        // Apply styling for the Platform column
+                        if (index === 1) {
+                            let platformClass = column.toLowerCase().replace(/\s+/g, "-");
+                            // Rename "3DS" to "threeDS" to avoid CSS class issues
+                            if (platformClass === "3ds") {
+                                platformClass = "threeDS";
+                            }
+
+                            cell.classList.add("platform", platformClass);
+                        }
+
                         // Apply styling for the Priority column
                         if (index === 2) {
                             let priorityClass = column.toLowerCase().replace(/\s+/g, "-");
                             cell.classList.add(priorityClass);
                         }
 
-                        // Keep "Main Story Completed" column as "Yes" or "No" (no modifications)
+                        // Apply styling for the Started? column
                         if (index === 5) {
                             cell.classList.add(column.toLowerCase() === "yes" ? "yes-completed" : "no-completed");
                         }
