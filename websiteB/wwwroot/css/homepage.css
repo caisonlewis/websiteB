@@ -21,6 +21,7 @@
 
 #aboutme-container {
     width: auto;
+    max-width: 50%;
     background-color: rgba(0, 0, 0, 0.9);
     border: 3px solid #0ff;
     margin-top: auto;
@@ -40,6 +41,6 @@
 
     #aboutme-container p {
         color: white;
-        font-size: 32px;
+        font-size: 25px;
     }
 
