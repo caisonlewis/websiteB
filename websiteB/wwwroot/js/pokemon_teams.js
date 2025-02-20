@@ -50,32 +50,32 @@
 
 // add Teams
 const blueTeam = [
-    new Pokemon("/images/sprites/blastoisegen1.png", "Blastoise", "BLIZZ", 51, ["Skull Bash", "Blizzard", "Bite", "Surf"]),
-    new Pokemon("/images/sprites/snorlaxgen1.png", "Snorlax", "Hiro", 44, ["Metronome", "Amnesia", "Earthquake", "Psychic"]),
-    new Pokemon("/images/sprites/zapdosgen1.png", "Zapdos", "Zapdos", 51, ["Thundershock", "Drill Peck", "Fly", "-"]),
-    new Pokemon("/images/sprites/charizardgen1.png", "Charizard", "Charizard", 43, ["Slash", "Fire Blast", "Strength", "Toxic"]),
-    new Pokemon("/images/sprites/raichugen1.png", "Raichu", "BUZZ", 44, ["Thunderbolt", "Flash", "Mega Kick", "Double-Edge"]),
-    new Pokemon("/images/sprites/alakazamgen1.png", "Alakazam", "Akihabra", 51, ["Psybeam", "Recover", "Psychic", "Reflect"])
+    new Pokemon("/BlizzNet/websiteB/wwwroot//images/sprites/blastoisegen1.png", "Blastoise", "BLIZZ", 51, ["Skull Bash", "Blizzard", "Bite", "Surf"]),
+    new Pokemon("/BlizzNet/websiteB/wwwroot//images/sprites/snorlaxgen1.png", "Snorlax", "Hiro", 44, ["Metronome", "Amnesia", "Earthquake", "Psychic"]),
+    new Pokemon("/BlizzNet/websiteB/wwwroot//images/sprites/zapdosgen1.png", "Zapdos", "Zapdos", 51, ["Thundershock", "Drill Peck", "Fly", "-"]),
+    new Pokemon("/BlizzNet/websiteB/wwwroot//images/sprites/charizardgen1.png", "Charizard", "Charizard", 43, ["Slash", "Fire Blast", "Strength", "Toxic"]),
+    new Pokemon("/BlizzNet/websiteB/wwwroot//images/sprites/raichugen1.png", "Raichu", "BUZZ", 44, ["Thunderbolt", "Flash", "Mega Kick", "Double-Edge"]),
+    new Pokemon("/BlizzNet/websiteB/wwwroot//images/sprites/alakazamgen1.png", "Alakazam", "Akihabra", 51, ["Psybeam", "Recover", "Psychic", "Reflect"])
 
 ];
 
 const leafgreenTeam = [
-    new Pokemon("/images/sprites/blastoisegen3.png", "Blastoise", "BUBS", 48, ["Bite", "Tail Whip", "Surf", "Srength"]),
-    new Pokemon("/images/sprites/raichugen3.png", "Raichu", "PICO", 46, ["Thunderbolt", "Double Team", "Counter", "Thunder Wave"]),
-    new Pokemon("/images/sprites/articunogen3.png", "Articuno", "Kool", 50, ["Mist", "Agility", "Fly", "Ice Beam"]),
-    new Pokemon("/images/sprites/dragonitegen3.png", "Dragonite", "MiMi", 55, ["Surf", "Thunder", "Wing Attack", "Dragon Rage"]),
-    new Pokemon("/images/sprites/ninetalesgen3.png", "Ninetales", "Tee", 40, ["Ember", "Fire Blast", "Roar", "Quick Attack"]),
-    new Pokemon("/images/sprites/nidoqueengen3.png", "Nidoqueen", "Bee", 42, ["Brick Break", "Poison Sting", "Bite", "Earthquake"])
+    new Pokemon("/BlizzNet/websiteB/wwwroot//images/sprites/blastoisegen3.png", "Blastoise", "BUBS", 48, ["Bite", "Tail Whip", "Surf", "Srength"]),
+    new Pokemon("/BlizzNet/websiteB/wwwroot//images/sprites/raichugen3.png", "Raichu", "PICO", 46, ["Thunderbolt", "Double Team", "Counter", "Thunder Wave"]),
+    new Pokemon("/BlizzNet/websiteB/wwwroot//images/sprites/articunogen3.png", "Articuno", "Kool", 50, ["Mist", "Agility", "Fly", "Ice Beam"]),
+    new Pokemon("/BlizzNet/websiteB/wwwroot//images/sprites/dragonitegen3.png", "Dragonite", "MiMi", 55, ["Surf", "Thunder", "Wing Attack", "Dragon Rage"]),
+    new Pokemon("/BlizzNet/websiteB/wwwroot//images/sprites/ninetalesgen3.png", "Ninetales", "Tee", 40, ["Ember", "Fire Blast", "Roar", "Quick Attack"]),
+    new Pokemon("/BlizzNet/websiteB/wwwroot//images/sprites/nidoqueengen3.png", "Nidoqueen", "Bee", 42, ["Brick Break", "Poison Sting", "Bite", "Earthquake"])
 
 ];
 
 const emeraldTeam = [
-    new Pokemon("/images/sprites/swampert.png", "Swampert", "Mudstorm", 62, ["Surf", "Earthquake", "Ice Beam", "Protect"])
+    new Pokemon("/BlizzNet/websiteB/wwwroot//images/sprites/swampert.png", "Swampert", "Mudstorm", 62, ["Surf", "Earthquake", "Ice Beam", "Protect"])
 ];
 
 const platinumTeam = [
-    new Pokemon("/images/sprites/torterra.png", "Torterra", "Gaia", 60, ["Earthquake", "Wood Hammer", "Stone Edge", "Synthesis"]),
-    new Pokemon("/images/sprites/infernape.png", "Infernape", "Blaze", 55, ["Flamethrower", "Close Combat", "Grass Knot", "ThunderPunch"])
+    new Pokemon("/BlizzNet/websiteB/wwwroot//images/sprites/torterra.png", "Torterra", "Gaia", 60, ["Earthquake", "Wood Hammer", "Stone Edge", "Synthesis"]),
+    new Pokemon("/BlizzNet/websiteB/wwwroot//images/sprites/infernape.png", "Infernape", "Blaze", 55, ["Flamethrower", "Close Combat", "Grass Knot", "ThunderPunch"])
 ];
 
 // Populate Tables

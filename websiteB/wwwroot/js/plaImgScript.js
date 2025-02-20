@@ -3,13 +3,13 @@
 
     // Array of image sources
     const imageSources = [
-        "/images/plaImgs/plaFullTeam.jpg",
-        "/images/plaImgs/plaSamurott.jpg",
-        "/images/plaImgs/plaInfernape.jpg",
-        "/images/plaImgs/plaRoserade.jpg",
-        "/images/plaImgs/plaRypherior.jpg",
-        "/images/plaImgs/plaStaraptor.jpg",
-        "/images/plaImgs/plaRotom.jpg"
+        "/BlizzNet/websiteB/wwwroot//images/plaImgs/plaFullTeam.jpg",
+        "/BlizzNet/websiteB/wwwroot//images/plaImgs/plaSamurott.jpg",
+        "/BlizzNet/websiteB/wwwroot//images/plaImgs/plaInfernape.jpg",
+        "/BlizzNet/websiteB/wwwroot//images/plaImgs/plaRoserade.jpg",
+        "/BlizzNet/websiteB/wwwroot//images/plaImgs/plaRypherior.jpg",
+        "/BlizzNet/websiteB/wwwroot//images/plaImgs/plaStaraptor.jpg",
+        "/BlizzNet/websiteB/wwwroot//images/plaImgs/plaRotom.jpg"
     ];
 
     // Loop through image sources and create img elements

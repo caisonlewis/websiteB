@@ -56,11 +56,11 @@ const xc3 = new Game("Xenoblade Chronicles 3", "Nintendo Switch", "images/xc3.jp
     "This game is absolutely polarizing. The story is beautiful, you cant help but fall in love with the characters, it took me a while to finish because I was coming back to the game on and off for a good year or so but my god.. I wouldn't have had it any other way. I truly felt the weight and growth of the story taking it slow. A must own for any RPG fan. "
 );
 
-const gris = new Game("Gris", "PlayStation 5", "images/grisArt.jpg",
+const gris = new Game("Gris", "PlayStation 5", "/BlizzNet/websiteB/wwwroot/images/grisArt.jpg",
     "Very fun and beautiful little game, only takes about 5-6 hours to complete, it is like controlling a character in a painting, stunning visuals, beautiful sound and music, the puzzles are fun. The story is deeply artistic and emotionally heavy handed. I really liked this game, especially playing it on PS5 with the enhanced controller vibration and dualsense triggers (or whatever they're called). The ps5 controller alone makes the game even more immersive and mesmerizing. Just play it. Definitely worth 5-6 hours of your time."
 )
 
-const PLA = new Game("Pokémon: Legends Arceus", "Nintendo Switch", "images/plaEnd.jpg",
+const PLA = new Game("Pokémon: Legends Arceus", "Nintendo Switch", "/BlizzNet/websiteB/wwwroot/images/plaEnd.jpg",
     "This was my second playthrough. That says it all. I only replay games that are fantastic and fun no matter what and that's what legends arceus is. Really cool direction for the Pokémon series as a whole, even if it isn't considered a 'Main-Line' Pokémon game. Loved it, wanna do some of the end game stuff, caught some shinies this playthrough. One of my favorite newer Pokémon games."
 );
 
