@@ -1,7 +1,7 @@
 ﻿/* Game card styling */
 .game-card {
     width: auto;
-    max-width: min(600p);
+    max-width: min(600px);
     background-color: rgba(0, 0, 0, 0.9);
     border: 3px solid #0ff;
     padding: 30px;
