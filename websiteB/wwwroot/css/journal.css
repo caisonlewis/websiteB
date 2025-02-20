@@ -1,7 +1,7 @@
 ﻿/* Journal Entry Card Styling */
 .journal-entry {
-    width: 90%;
-    max-width: 900px; /* Limit maximum size for readability */
+    width: auto;
+    max-width: min(900px, 100%);
     background-color: rgba(0, 0, 0, 0.9);
     border: 3px solid #0ff;
     padding: 30px;

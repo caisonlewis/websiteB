@@ -12,8 +12,8 @@
 
 /* Table Styling */
 #backlog-table {
-    width: 100%;
-    max-width: 1500px;
+    width: auto;
+    max-width: min(900px, 100%);
     border-collapse: collapse;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;

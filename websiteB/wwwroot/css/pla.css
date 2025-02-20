@@ -17,7 +17,7 @@
 
     /* Individual images - large, centered, and responsive */
     .pla-image-container img {
-        width: 100%;
+        width: auto;
         max-width: min(900px, 100%); /* Ensures max possible size without breaking layout */
         height: auto;
         margin-bottom: 20px;
@@ -51,15 +51,14 @@
 
 /* Table Styling */
 .shiny-table {
-    width: 100%; /* Ensure it scales properly */
-    max-width: 900px; /* Match image max-width */
+    width: auto; /* Ensure it scales properly */
+    max-width: min(900px, 100%);
     align-content: center;
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
     background: rgba(0, 0, 0, 0.5); /* Adjust transparency for theme */
     border: 2px solid #00ffff; /* Cyberpunk-style neon border */
-   
 }
 
     /* Table Cells */
@@ -71,7 +70,7 @@
 
     /* Shiny Pokémon Images */
     .shiny-table img {
-        width: 150px; /* Adjust sprite size */
+        width: initial; /* Adjust sprite size */
         height: auto;
         display: block;
     }
