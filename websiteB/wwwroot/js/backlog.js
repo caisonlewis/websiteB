@@ -18,7 +18,7 @@
             }
 
             rows.slice(1).forEach(row => {
-                if (row.length >= 6) { // Ensure at least 6 columns exist
+                if (row.length >= 7) { // Ensure at least 6 columns exist
                     const newRow = document.createElement("tr");
 
                     row.forEach((column, index) => {
@@ -47,6 +47,7 @@
                             cell.classList.add(column.toLowerCase() === "yes" ? "yes-completed" : "no-completed");
                         }
 
+         
                         newRow.appendChild(cell);
                     });
 
