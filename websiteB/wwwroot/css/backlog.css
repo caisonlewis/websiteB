@@ -94,7 +94,7 @@
 
     /* Nintendo 3DS */
     .platform.threeDS {
-        color: red;
-        text-shadow: 2px 2px 4px black;
+        color: orange;
+        text-shadow: 2px 2px 4px white;
     }
 
